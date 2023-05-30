@@ -1,0 +1,27 @@
+.container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.lists-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.list-items {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    max-width: 500px;
+  }
+}

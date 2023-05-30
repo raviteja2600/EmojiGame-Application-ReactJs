@@ -1,0 +1,28 @@
+.list-item {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff33;
+  padding: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    height: 120px;
+    width: 120px;
+  }
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.emoji {
+  width: 100%;
+}
